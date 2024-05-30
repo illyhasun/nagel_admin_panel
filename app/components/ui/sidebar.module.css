@@ -1,0 +1,144 @@
+.sidebar{
+    position: fixed;
+    width: 25%;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff;
+}
+.sidebar ul li a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.sidebar ul li a img{
+    margin-right: 10px;
+}
+.userInfo{
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.userInfo h5{
+    font-size: var(--medium-font-size);
+    cursor: pointer;
+}
+.avatar{
+    position: relative;
+    width: max-content;
+    cursor: pointer;
+}
+.avatar img{
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    padding: 3px;
+    border: 3px var(--main-bg-color) solid;
+    background-color: var(--main-border-color);
+    border-radius: 50%;
+}
+.circle{
+    border: 3px var(--main-border-color) solid;
+    height: 75px;
+    width: 75px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.nav{
+    margin-bottom: 50px;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+}
+.dropdown img{
+    margin-right: 10px;
+}
+.nav ul li a,
+.dropdown,
+.logout ul li a{
+    background-color: transparent;
+    transition: 1s;
+    opacity: 0.6;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.nav ul li a:hover,
+.dropdown:hover,
+.logout ul li a:hover{
+    opacity: 1;
+    background-color: var(--main-hover-color);
+}
+.dropdown{
+    justify-content: space-between;
+}
+.dropdown div{
+    display: flex;
+    align-items: center;
+
+}
+.dropdownMenu{
+    position: absolute;
+    transition: 1s ;
+    margin-top: -20px;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    z-index: -10;
+}
+.dropdownMenu ul li a{
+    height: 0;
+    transition: 1s;
+}
+.dropdownMenuActive{
+    height: max-content;
+    opacity: 1;
+    transition: 1s;
+    margin-left: 30px;
+}
+.dropdownMenu ul li a{
+    height: 0;
+    transition: 1s;
+}
+.dropdownMenuActive ul{
+    width: 100%;
+}
+.dropdownMenuActive ul li a{
+    height: max-content;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    transition: 1s;
+    opacity: 0.6;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+.dropdownMenuActive ul li a:hover{
+    opacity: 1;
+    background-color: var(--main-hover-color);
+}
+.littleCircle{
+    height: 7px;
+    width: 7px;
+    background-color: yellowgreen;
+    border-radius: 1px;
+    margin-right: 5px;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    width: calc(100% - 40px);
+}
