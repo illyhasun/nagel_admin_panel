@@ -1,0 +1,12 @@
+.statistics {
+    background-color: #fff;
+    height: 400px;
+    padding: 20px;
+    margin: 50px 20px;
+    border-radius: 20px;
+}
+
+.statistics h1 {
+    margin: 20px;
+    font-size: var(--huge-font-size);
+}

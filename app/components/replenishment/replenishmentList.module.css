@@ -1,0 +1,16 @@
+.replenishmentItem {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: var(--main-item-bg-color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: var(--medium-font-size);
+}
+
+.notificationLabel {
+    color: red;
+    font-weight: bold;
+}

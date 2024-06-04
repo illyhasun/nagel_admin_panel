@@ -1,14 +1,13 @@
-import Replenishment from "../components/replenishment";
-import Warning from "../components/ui/warning";
+import Replenishment from "../components/replenishment/replenishment";
+import Statistics from "../components/statistics";
 
 import classes from './page.module.css'
 
 export default function Dashboard() {
   return (
     <main className={classes.dashboard}>
-      <div>Dashboard</div>
-      {/* <Warning /> */}
       <Replenishment />
+      <Statistics />
     </main>
   )
 }

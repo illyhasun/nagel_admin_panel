@@ -1,0 +1,29 @@
+.replenishmentForm{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.item p{
+    width: 33%;
+}
+.item p:last-child{
+    text-align: right;
+}
+.button{
+    width: 100%;
+    padding: 10px;
+    font-size: var(--big-font-size);
+    border-radius: 10px;
+    color: #fff;
+    background-color: var(--main-bg-color);
+    margin-top: auto;
+}

@@ -1,12 +1,13 @@
 .sidebar{
     position: fixed;
-    width: 25%;
+    width: 350px;
     height: 100vh;
     background-color: var(--main-bg-color);
     display: flex;
     flex-direction: column;
     padding: 20px;
     color: #fff;
+    overflow: scroll;
 }
 .sidebar ul li a{
     display: flex;
@@ -137,8 +138,23 @@
 }
 
 .logout{
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 20px;
-    width: calc(100% - 40px);
+    display: flex;
+    flex-grow: 1;
+}
+.logout ul{
+    margin-top: auto;
+    padding-top: 50px;
+}
+
+.notificationLink a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notification {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: var(--small-font-size);
 }
