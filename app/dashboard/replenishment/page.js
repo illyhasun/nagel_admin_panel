@@ -1,4 +1,4 @@
-import Replenishment from "@/app/components/replenishment/replenishment"
+import Replenishment from '@/app/components/replenishment/replenishment'
 
 import classes from './page.module.css'
 

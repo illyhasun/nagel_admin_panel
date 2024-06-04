@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import PercentageInput from "../ui/percentageInput"
-import { getCurrentDate } from '@/app/utils/dates';
+import PercentageInput from '../ui/percentageInput'
+import { getCurrentDate } from '@/app/utils/dates'
 
 import classes from './replenishmentItemsList.module.css'
 

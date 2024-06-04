@@ -1,11 +1,11 @@
 'use client'
-import { useState } from 'react';
-import Image from 'next/image';
+import { useState } from 'react'
+import Image from 'next/image'
 
-import ReplenishmentList from './replenishmentList';
-import ReplenishmentDetail from './replenishmentDetail';
+import ReplenishmentList from './replenishmentList'
+import ReplenishmentDetail from './replenishmentDetail'
 
-import classes from './replenishment.module.css';
+import classes from './replenishment.module.css'
 
 export default function Replenishment() {
     const [replenishment, setReplenishment] = useState();
