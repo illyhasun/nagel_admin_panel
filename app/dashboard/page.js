@@ -1,5 +1,5 @@
-import Replenishment from "../components/replenishment/replenishment";
-import Statistics from "../components/statistics";
+import Replenishment from '../components/replenishment/replenishment'
+import Statistics from '../components/statistics'
 
 import classes from './page.module.css'
 

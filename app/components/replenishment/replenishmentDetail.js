@@ -1,5 +1,7 @@
-import classes from './replenishmentDetail.module.css'
 import ReplenishmentItemsList from './replenishmentItemsList'
+
+import classes from './replenishmentDetail.module.css'
+
 export default function ReplenishmentDetail({ stingifyReplenishment }) {
 
   const replenishment = JSON.parse(stingifyReplenishment)

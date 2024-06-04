@@ -1,6 +1,6 @@
-import React from 'react';
-import classes from './replenishmentList.module.css';
 import { data } from '../../DUMMY_DATA.JS';
+
+import classes from './replenishmentList.module.css';
 
 export default function ReplenishmentList({ setReplenishment }) {
     return (
